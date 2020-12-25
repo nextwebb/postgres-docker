@@ -11,9 +11,9 @@ services:
       - '8080:80'
     network_mode: bridge
 
-    # Link this container to the postgres container with hostname 'postgres'
+    # Link this container to the postgres container with hostname 'postgres_docker'
     external_links:
-      - postgres:postgres
+      - postgres_docker:postgres
 
     environment:
       PGADMIN_DEFAULT_EMAIL: 'admin@example.com'
