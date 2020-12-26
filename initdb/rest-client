@@ -1,0 +1,6 @@
+POST localhost:3000/createuser
+{
+    "user_name":"nextwebb",
+    "email":"oaikhenahpeterson@gmail.com",
+    "password":"password"
+}
