@@ -10,7 +10,7 @@ This compose file will download the [official Postgres Docker container](https:/
 it on your local system, listening on the default port of 5432.
 
 ```shell
-docker-compose -f postgres.yaml up
+docker compose -f postgres.yaml up
 ```
 Type Control-C to stop the running container.
 
